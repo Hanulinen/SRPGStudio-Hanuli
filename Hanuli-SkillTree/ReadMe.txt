@@ -21,6 +21,7 @@ By default this plugin:
 What to do to customize the plugin:
 -Check out the config file for editable properties. You need to fudge some coordinates to make the skill tree center correctly on different resolutions. (The default is made for 640x480)
 -Each character you want to have a skill tree for, needs a character file in the plugin folder. Copy any of the character files and use it as a blueprint. Inside are instructions on what is needed.
+-You also need to add a reference to any skill trees in the Z_skill_tree_array.js file
 -Inside the character files are also the skill orbs themselves. Modify/Add them to create more skill orbs or modify existing ones.
 -Once you have your character files, you need to add the skill tree object in the array within the array-file.
 
